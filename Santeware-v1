@@ -11,7 +11,6 @@ local function onInputBegan(input, _gameProcessed)
 	end
 end
 
-
 local function onInputEnded(input, _gameProcessed)
 	if input.KeyCode == Enum.KeyCode.Z then
 		getgenv().antilock = false
