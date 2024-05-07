@@ -11,8 +11,9 @@ local function onInputBegan(input, _gameProcessed)
 	end
 end
 
+
 local function onInputEnded(input, _gameProcessed)
-	if input.KeyCode == Enum.KeyCode.X then
+	if input.KeyCode == Enum.KeyCode.Z then
 		getgenv().antilock = false
 		game.StarterGui:SetCore("SendNotification", {
         Title = "Off";
