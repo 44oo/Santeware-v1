@@ -5,7 +5,7 @@ getgenv().Eat = {
     ["OldPosition"] = nil,
     ["ReturningHealth"] = 90,
     ["StartHealth"] = 80,
-    ["Running"] = false
+    ["Running"] = true
 }
 
 if game.Workspace:FindFirstChild("FoodPlate") then
