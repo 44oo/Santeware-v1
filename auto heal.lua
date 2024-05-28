@@ -1,11 +1,12 @@
 getgenv().AutoEatToggle = true
 getgenv().Eat = {
-    ["Eating"] = true,
+game:GetService("RunService").heartbeat:Connect(function()
+    ["Eating"] = false,
     ["OldBuyPosition"] = nil,
     ["OldPosition"] = nil,
     ["ReturningHealth"] = 90,
     ["StartHealth"] = 80,
-    ["Running"] = true
+    ["Running"] = false
 }
 
 if game.Workspace:FindFirstChild("FoodPlate") then
