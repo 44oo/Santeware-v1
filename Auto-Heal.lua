@@ -1,5 +1,4 @@
-getgenv().AutoEat = true 
-game:GetService("RunService").heartbeat:Connect(function()
+getgenv().AutoEat = true
     ["Eating"] = false,
     ["OldBuyPosition"] = nil,
     ["OldPosition"] = nil,
