@@ -1,6 +1,5 @@
 getgenv().Noclip = true 
 game:GetService("RunService").heartbeat:Connect(function()
-    if getgenv().Noclip == true then 
 
                 local RunService = game:GetService('RunService')
                 RunService.Heartbeat:Connect(function(step)
