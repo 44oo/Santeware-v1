@@ -1,6 +1,6 @@
 getgenv().AutoEatToggle = true
 getgenv().Eat = {
-    ["Eating"] = false,
+    ["Eating"] = true,
     ["OldBuyPosition"] = nil,
     ["OldPosition"] = nil,
     ["ReturningHealth"] = 90,
