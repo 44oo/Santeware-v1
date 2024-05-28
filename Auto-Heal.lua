@@ -1,5 +1,4 @@
-getgenv().AutoEat = true
-    ["Eating"] = false,
+  ["Eating"] = false,
     ["OldBuyPosition"] = nil,
     ["OldPosition"] = nil,
     ["ReturningHealth"] = 90,
